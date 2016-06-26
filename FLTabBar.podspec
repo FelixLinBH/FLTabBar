@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'FLTabBar/Classes/**/*'
   s.requires_arc = true
-  s.public_header_files = 'LTabBar/TabBar/FLTabBarController.h'
+  s.public_header_files = 'FLTabBar/Classes/TabBar/FLTabBarController.h'
   s.frameworks = 'UIKit'
 end
