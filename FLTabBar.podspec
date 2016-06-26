@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "FLTabBar"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Customization center tabBar button."
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.screenshots  = "https://github.com/FelixLinBH/FLTabBar/blob/master/SimulatorScreen%20Shot.png?raw=true"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'felix.lin' => 'fly_81211@hotmail.com' }
-  s.source       = { :git => "https://github.com/FelixLinBH/FLTabBar.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/FelixLinBH/FLTabBar.git", :tag => "1.0.1" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
