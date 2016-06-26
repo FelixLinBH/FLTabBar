@@ -1,0 +1,14 @@
+PODS:
+  - FLTabBar (1.0.0)
+
+DEPENDENCIES:
+  - FLTabBar (from `../`)
+
+EXTERNAL SOURCES:
+  FLTabBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FLTabBar: 42e07288e5d1071f2a2b1690d66526b5422f9f71
+
+COCOAPODS: 0.39.0

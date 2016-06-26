@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'FLTabBar_Example' do
+  pod 'FLTabBar', :path => '../'
+
+  target 'FLTabBar_Tests' do
+    
+  end
+end
