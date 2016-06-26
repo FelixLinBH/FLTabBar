@@ -19,6 +19,7 @@ pod "FLTabBar"
 
 ```
 #import "FLTabBarController.h"
+#import "FLObject.h"
 ```
 
 ###Use FLObject to create tabBar item.
