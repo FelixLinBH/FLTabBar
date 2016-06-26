@@ -15,16 +15,16 @@
 		3747E3C31D1FADAE006A24C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3747E3C11D1FADAE006A24C3 /* LaunchScreen.storyboard */; };
 		3747E3CE1D1FADAE006A24C3 /* FLTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E3CD1D1FADAE006A24C3 /* FLTabBarTests.m */; };
 		3747E3D91D1FADAE006A24C3 /* FLTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E3D81D1FADAE006A24C3 /* FLTabBarUITests.m */; };
-		3747E3EB1D1FADD6006A24C3 /* FLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E3E81D1FADD6006A24C3 /* FLTabBar.m */; };
-		3747E3EC1D1FADD6006A24C3 /* FLTabBarCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E3EA1D1FADD6006A24C3 /* FLTabBarCenterButton.m */; };
-		3747E3EF1D1FAE72006A24C3 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E3EE1D1FAE72006A24C3 /* UIView+Extension.m */; };
-		3747E3F21D1FAEEF006A24C3 /* FLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E3F11D1FAEEF006A24C3 /* FLTabBarController.m */; };
 		3747E3F61D1FB040006A24C3 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E3F51D1FB040006A24C3 /* OneViewController.m */; };
 		3747E3F91D1FB04A006A24C3 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E3F81D1FB04A006A24C3 /* TwoViewController.m */; };
 		3747E3FC1D1FB052006A24C3 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E3FB1D1FB052006A24C3 /* ThreeViewController.m */; };
 		3747E3FF1D1FB05A006A24C3 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E3FE1D1FB05A006A24C3 /* FourViewController.m */; };
 		3747E4021D1FB066006A24C3 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E4011D1FB066006A24C3 /* FiveViewController.m */; };
-		3747E4071D1FB2EC006A24C3 /* FLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E4061D1FB2EC006A24C3 /* FLObject.m */; };
+		3747E40A1D1FDAF7006A24C3 /* FLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E4091D1FDAF7006A24C3 /* FLObject.m */; };
+		3747E40D1D1FDB0A006A24C3 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E40C1D1FDB0A006A24C3 /* UIView+Extension.m */; };
+		3747E4151D1FDB26006A24C3 /* FLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E4101D1FDB26006A24C3 /* FLTabBar.m */; };
+		3747E4161D1FDB26006A24C3 /* FLTabBarCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E4121D1FDB26006A24C3 /* FLTabBarCenterButton.m */; };
+		3747E4171D1FDB26006A24C3 /* FLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3747E4141D1FDB26006A24C3 /* FLTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,14 +61,6 @@
 		3747E3D41D1FADAE006A24C3 /* FLTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3747E3D81D1FADAE006A24C3 /* FLTabBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLTabBarUITests.m; sourceTree = "<group>"; };
 		3747E3DA1D1FADAE006A24C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3747E3E71D1FADD6006A24C3 /* FLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTabBar.h; sourceTree = "<group>"; };
-		3747E3E81D1FADD6006A24C3 /* FLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTabBar.m; sourceTree = "<group>"; };
-		3747E3E91D1FADD6006A24C3 /* FLTabBarCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTabBarCenterButton.h; sourceTree = "<group>"; };
-		3747E3EA1D1FADD6006A24C3 /* FLTabBarCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTabBarCenterButton.m; sourceTree = "<group>"; };
-		3747E3ED1D1FAE72006A24C3 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		3747E3EE1D1FAE72006A24C3 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		3747E3F01D1FAEEF006A24C3 /* FLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTabBarController.h; sourceTree = "<group>"; };
-		3747E3F11D1FAEEF006A24C3 /* FLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTabBarController.m; sourceTree = "<group>"; };
 		3747E3F41D1FB040006A24C3 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		3747E3F51D1FB040006A24C3 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		3747E3F71D1FB04A006A24C3 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
@@ -79,8 +71,16 @@
 		3747E3FE1D1FB05A006A24C3 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 		3747E4001D1FB066006A24C3 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
 		3747E4011D1FB066006A24C3 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
-		3747E4051D1FB2EC006A24C3 /* FLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLObject.h; sourceTree = "<group>"; };
-		3747E4061D1FB2EC006A24C3 /* FLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLObject.m; sourceTree = "<group>"; };
+		3747E4081D1FDAF7006A24C3 /* FLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLObject.h; path = FLTabBar/FLObject.h; sourceTree = "<group>"; };
+		3747E4091D1FDAF7006A24C3 /* FLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLObject.m; path = FLTabBar/FLObject.m; sourceTree = "<group>"; };
+		3747E40B1D1FDB0A006A24C3 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "FLTabBar/UIView+Extension.h"; sourceTree = "<group>"; };
+		3747E40C1D1FDB0A006A24C3 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "FLTabBar/UIView+Extension.m"; sourceTree = "<group>"; };
+		3747E40F1D1FDB26006A24C3 /* FLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLTabBar.h; path = FLTabBar/FLTabBar.h; sourceTree = "<group>"; };
+		3747E4101D1FDB26006A24C3 /* FLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLTabBar.m; path = FLTabBar/FLTabBar.m; sourceTree = "<group>"; };
+		3747E4111D1FDB26006A24C3 /* FLTabBarCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLTabBarCenterButton.h; path = FLTabBar/FLTabBarCenterButton.h; sourceTree = "<group>"; };
+		3747E4121D1FDB26006A24C3 /* FLTabBarCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLTabBarCenterButton.m; path = FLTabBar/FLTabBarCenterButton.m; sourceTree = "<group>"; };
+		3747E4131D1FDB26006A24C3 /* FLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLTabBarController.h; path = FLTabBar/FLTabBarController.h; sourceTree = "<group>"; };
+		3747E4141D1FDB26006A24C3 /* FLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLTabBarController.m; path = FLTabBar/FLTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,14 +175,9 @@
 		3747E3E61D1FADBD006A24C3 /* FLTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				3747E40E1D1FDB12006A24C3 /* Classes */,
 				3747E4041D1FB2D3006A24C3 /* Model */,
 				3747E4031D1FB2BC006A24C3 /* Category */,
-				3747E3E71D1FADD6006A24C3 /* FLTabBar.h */,
-				3747E3E81D1FADD6006A24C3 /* FLTabBar.m */,
-				3747E3E91D1FADD6006A24C3 /* FLTabBarCenterButton.h */,
-				3747E3EA1D1FADD6006A24C3 /* FLTabBarCenterButton.m */,
-				3747E3F01D1FAEEF006A24C3 /* FLTabBarController.h */,
-				3747E3F11D1FAEEF006A24C3 /* FLTabBarController.m */,
 			);
 			name = FLTabBar;
 			sourceTree = "<group>";
@@ -207,8 +202,8 @@
 		3747E4031D1FB2BC006A24C3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				3747E3ED1D1FAE72006A24C3 /* UIView+Extension.h */,
-				3747E3EE1D1FAE72006A24C3 /* UIView+Extension.m */,
+				3747E40B1D1FDB0A006A24C3 /* UIView+Extension.h */,
+				3747E40C1D1FDB0A006A24C3 /* UIView+Extension.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -216,10 +211,23 @@
 		3747E4041D1FB2D3006A24C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3747E4051D1FB2EC006A24C3 /* FLObject.h */,
-				3747E4061D1FB2EC006A24C3 /* FLObject.m */,
+				3747E4081D1FDAF7006A24C3 /* FLObject.h */,
+				3747E4091D1FDAF7006A24C3 /* FLObject.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		3747E40E1D1FDB12006A24C3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3747E40F1D1FDB26006A24C3 /* FLTabBar.h */,
+				3747E4101D1FDB26006A24C3 /* FLTabBar.m */,
+				3747E4111D1FDB26006A24C3 /* FLTabBarCenterButton.h */,
+				3747E4121D1FDB26006A24C3 /* FLTabBarCenterButton.m */,
+				3747E4131D1FDB26006A24C3 /* FLTabBarController.h */,
+				3747E4141D1FDB26006A24C3 /* FLTabBarController.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,18 +360,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3747E40D1D1FDB0A006A24C3 /* UIView+Extension.m in Sources */,
 				3747E4021D1FB066006A24C3 /* FiveViewController.m in Sources */,
-				3747E3EF1D1FAE72006A24C3 /* UIView+Extension.m in Sources */,
+				3747E40A1D1FDAF7006A24C3 /* FLObject.m in Sources */,
 				3747E3BB1D1FADAE006A24C3 /* ViewController.m in Sources */,
 				3747E3B81D1FADAE006A24C3 /* AppDelegate.m in Sources */,
-				3747E3EC1D1FADD6006A24C3 /* FLTabBarCenterButton.m in Sources */,
 				3747E3B51D1FADAE006A24C3 /* main.m in Sources */,
-				3747E3EB1D1FADD6006A24C3 /* FLTabBar.m in Sources */,
 				3747E3F91D1FB04A006A24C3 /* TwoViewController.m in Sources */,
-				3747E3F21D1FAEEF006A24C3 /* FLTabBarController.m in Sources */,
 				3747E3F61D1FB040006A24C3 /* OneViewController.m in Sources */,
+				3747E4161D1FDB26006A24C3 /* FLTabBarCenterButton.m in Sources */,
 				3747E3FF1D1FB05A006A24C3 /* FourViewController.m in Sources */,
-				3747E4071D1FB2EC006A24C3 /* FLObject.m in Sources */,
+				3747E4171D1FDB26006A24C3 /* FLTabBarController.m in Sources */,
+				3747E4151D1FDB26006A24C3 /* FLTabBar.m in Sources */,
 				3747E3FC1D1FB052006A24C3 /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -590,6 +598,7 @@
 				3747E3DF1D1FADAE006A24C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3747E3E01D1FADAE006A24C3 /* Build configuration list for PBXNativeTarget "FLTabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +607,7 @@
 				3747E3E21D1FADAE006A24C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3747E3E31D1FADAE006A24C3 /* Build configuration list for PBXNativeTarget "FLTabBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -606,6 +616,7 @@
 				3747E3E51D1FADAE006A24C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
