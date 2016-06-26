@@ -7,6 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "FLTabBarController.h"
+#import "FLObject.h"
+
+
+#import "OneViewController.h"
+#import "TwoViewController.h"
+#import "ThreeViewController.h"
+#import "FourViewController.h"
+#import "FiveViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +26,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    FLObject *one = [[FLObject alloc]initWithViewController:[[OneViewController alloc]init] title:@"one" imageName:@"one" selectedImageName:@"one" isCustomImageView:NO];
+    FLObject *two = [[FLObject alloc]initWithViewController:[[TwoViewController alloc]init] title:@"two" imageName:@"two" selectedImageName:@"two" isCustomImageView:NO];
+    FLObject *three = [[FLObject alloc]initWithViewController:[[ThreeViewController alloc]init] title:@"three" imageName:@"three" selectedImageName:@"three" isCustomImageView:YES];
+    FLObject *four = [[FLObject alloc]initWithViewController:[[FourViewController alloc]init] title:@"four" imageName:@"four" selectedImageName:@"four" isCustomImageView:NO];
+    FLObject *five = [[FLObject alloc]initWithViewController:[[FiveViewController alloc]init] title:@"five" imageName:@"five" selectedImageName:@"five" isCustomImageView:NO];
+    
+    FLTabBarController *tabbarController = [[FLTabBarController alloc] initWithTabItems:@[one,two,three,four,five]];
+
+    self.window.rootViewController = tabbarController;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
