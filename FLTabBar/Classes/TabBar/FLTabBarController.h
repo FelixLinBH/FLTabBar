@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FLObject.h"
+
 @interface FLTabBarController : UITabBarController
 
 - (instancetype)initWithTabItems:(NSArray *)items;

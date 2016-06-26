@@ -7,7 +7,7 @@
 //
 
 #import "FLTabBarController.h"
-
+#import "FLObject.h"
 #import "FLTabBar.h"
 @interface FLTabBarController ()
 @property (nonatomic, strong) NSArray* tabItems;
