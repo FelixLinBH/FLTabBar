@@ -3,6 +3,10 @@
 
 Customization center tabBar button.
 
+TabBar button can be touch in prominent shape.
+
+Support Portrait and Landscape.
+
 ##Preview Screen Shot
 
 ![MacDown Screenshot](https://github.com/FelixLinBH/FLTabBar/blob/master/SimulatorScreen%20Shot.png?raw=true)
@@ -34,3 +38,6 @@ LObject *one = [[FLObject alloc]initWithViewController:[[OneViewController alloc
 FLTabBarController *tabbarController = [[FLTabBarController alloc] initWithTabItems:@[one,two,three,four,five]];
 ```
 
+###License
+
+MIT.
